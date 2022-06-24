@@ -1,7 +1,7 @@
 import os
 import numpy as np
 import pandas as pd
-import cPickle as pickle
+import _pickle as pickle
 from pymongo import MongoClient
 from scrape_ratings_threaded import threaded_scrape, mongo_to_pandas
 
