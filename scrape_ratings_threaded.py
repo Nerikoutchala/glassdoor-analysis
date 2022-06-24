@@ -4,7 +4,7 @@ import requests
 import numpy as np
 import pandas as pd
 import threading
-import cPickle as pickle
+import _pickle as pickle
 from time import sleep
 from progressbar import ProgressBar
 from unidecode import unidecode
