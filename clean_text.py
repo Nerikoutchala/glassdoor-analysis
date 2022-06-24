@@ -3,7 +3,7 @@ import pandas as pd
 import spacy
 from multiprocessing import Pool, cpu_count
 from string import punctuation
-from sklearn.feature_extraction.stop_words import ENGLISH_STOP_WORDS
+from sklearn.feature_extraction._stop_words import ENGLISH_STOP_WORDS
 STOPLIST = set(["n't", "'s", "'m", "ca", "'", "'re", "i've", 'poor', '-',
                 'worst', 'place', 'make', 'thing', 'hour', 'low', 'high', 'bos',
                 'good', 'great', 'awesome', 'excellent', 'job', 'best', 'lot',
